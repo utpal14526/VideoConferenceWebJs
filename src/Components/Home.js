@@ -20,9 +20,11 @@ const handleFormSubmit=(e)=>{
   return (
     <div class='home-page'>
         <form className="form" onSubmit={handleFormSubmit}>
-            <label>Enter Room Code</label>
+            <label ><h1>Enter Room Code</h1></label>
+            <div>
             <input type="text" value={roomCode} onChange={handleChange} placeholder='Enter Your Room Code' />
             <button type='submit'>Enter Room</button>
+            </div>
         </form>
     </div>
   )
